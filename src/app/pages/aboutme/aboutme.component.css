@@ -1,0 +1,55 @@
+mat-card {
+    width: 80vw;
+    padding: 1rem 2rem;
+    margin-bottom: 2rem;
+}
+
+div.image-row {
+    width: 100%;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto 2rem auto;
+    border: 1px solid #999;
+    border-radius: 25%;
+
+    height: 17.5rem;
+    width: auto;
+    object-fit: contain;
+}
+
+h2 {
+    width: 70%;
+    margin: 1rem auto;
+    padding-bottom: 0.5rem;
+
+    font-weight: 300;
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+section.content {
+    width: 70%;
+    margin: 1rem auto;
+    padding-bottom: 0.5rem;
+
+    text-align: center;
+}
+
+p {
+    margin: 1rem auto 0 auto;
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+h3 {
+    text-align: left;
+}
+
+li {
+    text-align: left;
+    line-height: 1.5;
+}
