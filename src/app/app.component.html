@@ -4,16 +4,16 @@
         <span class="logo-text">CWC Software Engineering</span>
     </div>
     <div class="button-container">
-        <a href="/"><button mat-raised-button color="primary">Home</button></a>
-        <a href="/aboutme"><button mat-raised-button color="primary">About Me</button></a>
-        <a href="/projects"><button mat-raised-button color="primary">Projects</button></a>
-        <a href="/services"><button mat-raised-button color="primary">Services</button></a>
-        <a href="/contacts"><button mat-raised-button color="primary">Contact Me</button></a>
+        <a routerLink="/"><button mat-raised-button color="primary">Home</button></a>
+        <a routerLink="/aboutme"><button mat-raised-button color="primary">About Me</button></a>
+        <a routerLink="/projects"><button mat-raised-button color="primary">Projects</button></a>
+        <a routerLink="/services"><button mat-raised-button color="primary">Services</button></a>
+        <a routerLink="/contacts"><button mat-raised-button color="primary">Contact Me</button></a>
     </div>
 </mat-toolbar>
 
 <section class="content">
-    <router-outlet></router-outlet>
+    <router-outlet (activate)="onSwitchRoute()"></router-outlet>
 </section>
 
 <section class="footer">

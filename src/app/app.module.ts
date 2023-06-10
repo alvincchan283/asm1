@@ -18,8 +18,7 @@ import { AppRoutingModule } from './modules/app-routing/app-routing.module';
     HomeComponent,
     AboutmeComponent,
     ServicesComponent,
-    ProjectsComponent,
-    ContactsComponent
+    ProjectsComponent
   ],
   imports: [
     AppRoutingModule,
