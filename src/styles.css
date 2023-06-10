@@ -7,3 +7,21 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+mat-card {
+   background: transparent !important;
+   color: white !important;
+   border-radius: 0.5rem !important;
+   box-shadow: 2px 2px 8px 2px #ccc !important;
+}
+ 
+mat-card.wide {
+   width: 80vw;
+   padding: 1rem 2rem;
+   margin: 1rem 2rem;
+}
+
+div.image-wrapper {
+   width: 100%;
+   text-align: center;
+}

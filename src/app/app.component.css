@@ -3,7 +3,15 @@
    Student ID: 301264973
    Date: 2023 June 11 */
 
-img.logo {
+/* CSS for navigation bar */
+div.logo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+div.logo-container > img {
     margin-right: 1rem;
     position: relative;
     z-index: 2;
@@ -13,11 +21,9 @@ img.logo {
     object-fit: contain;
 }
 
-div.logo-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-right: 2rem;
+div.logo-container > span {
+    font-weight: 300;
+    font-size: 1.5rem;
 }
 
 div.button-container {
@@ -27,21 +33,24 @@ div.button-container {
     margin-left: auto;
 }
 
-span.logo-text {
-    font-weight: 300;
-    font-size: 1.5rem;
+button {
+    margin-right: 1rem;
 }
 
+/* CSS for section content (Filled by Angular Router) */
 section.content {
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    margin: 1rem;
-    padding: 1rem 2rem;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(69,7,87,1) 40%, rgba(119,0,159,1) 100%);
+
+    padding: 2rem 2rem;
     min-height: calc(100vh - 12rem);
 }
 
+/* CSS for footer */
 section.footer {
     height: 4rem;
     margin-top: 0;
@@ -55,12 +64,8 @@ section.footer {
     flex-direction: row;
 }
 
-section.footer p {
+section.footer > p {
     margin: auto auto;
     font-size: 1rem;
     font-weight: 300;
-}
-
-button {
-    margin-right: 1rem;
 }
