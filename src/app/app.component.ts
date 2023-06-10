@@ -1,3 +1,8 @@
+/* Filename: app.component.ts
+   Student Name: Cheuk Wing Chan
+   Student ID: 301264973
+   Date: 2023 June 11 */
+
 import { Component } from '@angular/core';
 
 @Component({

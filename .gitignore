@@ -42,5 +42,5 @@ testem.log
 Thumbs.db
 
 # Assets
-assets/files/*
-assets/img/CWC.jpg
+src/assets/files/*
+src/assets/img/CWC.jpg

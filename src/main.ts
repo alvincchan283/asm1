@@ -1,3 +1,8 @@
+// Filename: main.ts
+// Student Name: Cheuk Wing Chan
+// Student ID: 301264973
+// Date: 2023 June 11
+
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 import { AppModule } from './app/app.module';
