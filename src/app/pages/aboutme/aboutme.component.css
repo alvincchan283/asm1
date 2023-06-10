@@ -9,16 +9,6 @@ img {
     object-fit: contain;
 }
 
-h2 {
-    width: 70%;
-    margin: 1rem auto 0 auto;
-    padding-bottom: 0.5rem;
-
-    font-weight: 300;
-    font-size: 1.75rem;
-    text-align: center;
-}
-
 section.content {
     width: 70%;
     margin: 1rem auto;

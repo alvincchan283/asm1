@@ -5,13 +5,7 @@ mat-card.wide p {
 }
 
 mat-card.wide h2 {
-    width: 70%;
-    margin: 1rem auto;
-    padding-bottom: 0.5rem;
-
-    font-weight: 400;
-    font-size: 1.75rem;
-    text-align: center;
+    font-weight: 300;
     border-bottom: 2px solid white;
 }
 

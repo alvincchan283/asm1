@@ -25,3 +25,13 @@ div.image-wrapper {
    width: 100%;
    text-align: center;
 }
+
+h2.page-title {
+   width: 70%;
+   margin: 1rem auto;
+   padding-bottom: 0.5rem;
+
+   font-weight: 300;
+   font-size: 1.75rem;
+   text-align: center;
+}
