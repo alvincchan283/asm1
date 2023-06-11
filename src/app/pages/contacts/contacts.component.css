@@ -11,6 +11,7 @@ mat-card.wide > h2 {
 mat-card.wide > p { text-align: center; }
 mat-card.wide > a.link { color: white !important; }
 
+/* CSS for entire form */
 form.contact-form {
     width: 50vw;
     margin: 2rem auto;
@@ -24,6 +25,7 @@ form.contact-form > button {
     margin: 1rem auto 0 auto;
 }
 
+/* CSS for each input field */
 div.contact-field {
     display: flex;
     flex-direction: row;

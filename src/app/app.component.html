@@ -5,6 +5,7 @@
     Date: 2023 June 11 */ 
 -->
 
+<!-- Navigation bar -->
 <mat-toolbar color="primary" class="mat-elevation-z5">
     <div class="logo-container">
         <img src="/assets/img/logo.svg" class="logo" alt="Logo">
@@ -19,6 +20,7 @@
     </div>
 </mat-toolbar>
 
+<!-- Container for page content -->
 <section class="content">
     <router-outlet (activate)="onSwitchRoute()"></router-outlet>
 </section>

@@ -15,6 +15,7 @@ div.project {
     flex-direction: column;
 }
 
+/* Sub-title for service */
 h3 {
     margin: 1rem;
     font-size: 1.5rem;
@@ -23,6 +24,7 @@ h3 {
     text-transform: uppercase;
 }
 
+/* Sub-title for role */
 h4 { font-size: 1.25rem; }
 
 img {
