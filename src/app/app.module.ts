@@ -6,7 +6,6 @@ import { HomeComponent } from './pages/home/home.component';
 import { AboutmeComponent } from './pages/aboutme/aboutme.component';
 import { ServicesComponent } from './pages/services/services.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
-import { ContactsComponent } from './pages/contacts/contacts.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './modules/material/material.module';
 import { AppRoutingModule } from './modules/app-routing/app-routing.module';

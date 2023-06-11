@@ -40,7 +40,3 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
-
-# Assets
-src/assets/files/*
-src/assets/img/CWC.jpg
