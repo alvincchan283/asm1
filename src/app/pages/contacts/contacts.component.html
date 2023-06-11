@@ -1,11 +1,13 @@
-<mat-card class="wide">
-    <h2>CONTACT ME</h2>
-    <p>You can contact me via email: 
-        <a href="mailto:cchan283@my.centennialcollege.ca" style="color: white;">cchan283@my.centennialcollege.ca</a>
-    </p>
-    <p>Additionally, you may contact me using the below contact form for services or inquiries.</p>
+<h2 class="page-title">CONTACTS</h2>
+<p class="page-description">You can contact me via email: 
+    <a href="mailto:cchan283@my.centennialcollege.ca" style="color: white;">cchan283@my.centennialcollege.ca</a>
+</p>
+<p class="page-description">Additionally, you may contact me using the below contact form for services or inquiries.</p>
 
+<br />
+<mat-card class="wide">
     <!-- Contact Form -->
+    <h2>Contact Form</h2>
     <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" class="contact-form">
         <div class="contact-field">
             <label for="firstname">First Name: </label>
