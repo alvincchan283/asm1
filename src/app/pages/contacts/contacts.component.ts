@@ -35,7 +35,7 @@ export class ContactsComponent {
       });
 
       snackBarRef.afterDismissed().subscribe(() => {
-        this.router.navigate(['/']);
+        this.router.navigate(['../']);
       });
     }, 300);
   }
